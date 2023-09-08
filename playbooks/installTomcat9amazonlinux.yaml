@@ -1,4 +1,4 @@
-- hosts: ansibletomcatservers
+- hosts: tomcatservers
   become: true
   tasks:
     - name: Install Java
